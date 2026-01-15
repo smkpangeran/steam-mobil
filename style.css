@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #0d6efd;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    background-color: #e3f2fd;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero button {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #084298;
+}
+
+/* Section */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Cards */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Harga */
+.harga ul {
+    list-style: none;
+    padding: 0;
+}
+
+.harga li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
